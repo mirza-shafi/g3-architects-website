@@ -109,8 +109,29 @@ main{
     color: #FF900E ;
 }
 
+/* Facts container */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 30px ;
+}
+.facts-card-container .card-starts{
+    font-size:2.8rem ;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
 
-
+}
 /*  responsive media queries*/
 /* mobile devices */
 @media screen and (max-width:576px){
