@@ -116,9 +116,7 @@ main{
     gap: 100px;
 
 }
-.ten-year-badge h2{
-    font-size: 4 rem;
-}
+
 
 .feature-containt .card{
     padding: 30px;
@@ -138,6 +136,16 @@ main{
     color: white;
     width: 342px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.ten-year-badge h2{
+    font-size: 4rem;
+}
+.ten-year-badge p{
+    font-size: 1.5rem;
+
 }
 
 
